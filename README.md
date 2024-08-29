@@ -26,10 +26,10 @@ Our contributions in this paper are summarized as the following:
 
 Here are some key images that illustrate the SEANet architecture and its comparison with existing methods:
 
-![SEANet Architecture](SEANet_architecture-1.png)
+![SEANet Architecture](skip_connections-1.png)
 *📷 Fig 1: An illustration showing the different skip-connection schemes implemented in existing denoising methods against proposed SEANet model with synergistic residual.*
 
-![SEANet Holistic Architecture](skip_connections-1.png)
+![SEANet Holistic Architecture](SEANet_architecture-1.png)
 *📷 Fig 2: Holistic architecture of proposed SEANet.*
 
 ## 🚀 Code and Data
