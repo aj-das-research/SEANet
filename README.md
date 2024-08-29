@@ -30,7 +30,7 @@ Here are some key images that illustrate the SEANet architecture and its compari
 *📷 Fig 1: An illustration showing the different skip-connection schemes implemented in existing denoising methods against proposed SEANet model with synergistic residual.*
 
 ![SEANet Holistic Architecture](SEANet_architecture-1.png)
-*📷 Fig 2: Holistic architecture of proposed SEANet.*
+*📷 Fig 2: Holistic architecture of proposed SEANet. SEANet consists of an encoder-decoder structure that takes an input noisy LDCT image in the form of patches. SEANet incorporates 2 image-token converters (I2T block and T2I block) along with 2 Dilation Modules (DMs) followed by a Transformer Unit and 2 consecutive Inverted Dilation Modules (IDMs). The Spectral Residual Units (SRUs) bridge the encoder-decoder with local to global synergistic feature maps $\mathcal{FM}^{syn}_{4d}$ guiding the boundary aware $\mathcal{FM}^{b}_{4d}$ during synthesis of denoised image.*
 
 ## 🚀 Code and Data
 
